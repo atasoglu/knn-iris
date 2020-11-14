@@ -9,7 +9,7 @@ def visualize_dataset():
     features = iris['data']
     labels = iris['target']
     names = iris.target_names
-    colors = ['b', 'r', 'g']
+    colors = ['r', 'g', 'b']
 
     _, (sepal, petal) = plt.subplots(ncols=2, figsize=(12, 5))
 
